@@ -1,0 +1,58 @@
+{
+  "/api/retry" : {
+    "response_times" : {
+      "95_percentile" : 454,
+      "90_percentile" : 454,
+      "min" : 216,
+      "max" : 454,
+      "50_percentile" : 233,
+      "99_percentile" : 454
+    },
+    "status_codes" : {
+      "2XX" : 1,
+      "4XX" : 1,
+      "5XX" : 1
+    }
+  },
+  "/home" : {
+    "response_times" : {
+      "95_percentile" : 329,
+      "90_percentile" : 329,
+      "min" : 329,
+      "max" : 329,
+      "50_percentile" : 329,
+      "99_percentile" : 329
+    },
+    "status_codes" : {
+      "4XX" : 1
+    }
+  },
+  "/api/status" : {
+    "response_times" : {
+      "95_percentile" : 277,
+      "90_percentile" : 277,
+      "min" : 117,
+      "max" : 277,
+      "50_percentile" : 140,
+      "99_percentile" : 277
+    },
+    "status_codes" : {
+      "2XX" : 2,
+      "5XX" : 3
+    }
+  },
+  "/api/update" : {
+    "response_times" : {
+      "95_percentile" : 378,
+      "90_percentile" : 378,
+      "min" : 61,
+      "max" : 378,
+      "50_percentile" : 144,
+      "99_percentile" : 378
+    },
+    "status_codes" : {
+      "4XX" : 2,
+      "5XX" : 1
+    }
+  }
+}

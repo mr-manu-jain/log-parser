@@ -1,0 +1,4 @@
+RequestLogHandlerTest.class
+ApplicationLogHandlerTest.class
+LogProcessorAppTest.class
+APMLogHandlerTest.class
